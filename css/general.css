@@ -200,3 +200,8 @@ position is fixed so the header stays in place when you scroll down*/
   border: 1px solid #ffdd19;
   border-radius: 12px;
 }
+.Bdr-style-two {
+  background-color: rgba(7, 27, 69, 0.9);
+  border: 1px solid #ffdd19;
+  padding: 1.2rem;
+}

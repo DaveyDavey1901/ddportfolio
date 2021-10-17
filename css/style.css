@@ -53,7 +53,7 @@
   display: grid;
   max-width: 100rem;
   grid-template-columns: 1fr 1.5fr 0.8fr 1fr;
-  gap: 2.2rem;
+  gap: 1.2rem;
   margin: 0 11rem;
 }
 
@@ -107,19 +107,17 @@
   float: left;
   z-index: -1;
 }
-.slide-title {
-  display: inline-block;
+.slider-t {
+  margin-bottom: 4rem;
+  line-height: 1.2;
 }
 .slides {
   height: 28.7rem;
   width: 28.1rem;
-  margin-left: 0;
 }
 .slider-title {
   width: 5rem;
   height: 4rem;
-  background-color: rgba(7, 27, 69, 0.9);
-  border: 1px solid #ffdd19;
   border-top-right-radius: 9px;
 
   font-size: 1.6rem;
@@ -130,8 +128,7 @@
   overflow-x: hidden;
 
   white-space: nowrap;
-  margin: 0rem;
-  padding: 1.3rem;
+  margin: 0rem 0rem 1rem 0rem;
 
   cursor: pointer;
 
