@@ -46,8 +46,9 @@
 .container-main {
   flex-direction: column;
   padding: 0 4.8rem;
-  margin: auto;
-  width: 120rem;
+  margin: 0 6rem;
+  max-width: 140rem;
+  min-width: 100rem;
 }
 
 .hero {
@@ -151,7 +152,7 @@
   column-gap: 1.2rem;
   row-gap: 2.4rem;
 
-  margin: 0 10.8rem 0 6.6rem;
+  margin: 0 20.6rem 0 1.6rem;
   padding: 7.6rem 13rem;
 }
 .feat-one {

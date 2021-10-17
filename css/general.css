@@ -74,7 +74,6 @@ body {
   font-weight: 500;
   color: #fdf2f2;
   overflow-x: hidden;
-  min-height: 100vh;
   scroll-behavior: smooth;
 }
 /* Not Used 
