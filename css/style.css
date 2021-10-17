@@ -44,17 +44,16 @@
 /* 03 HERO SECTION 03  */
 /***********************/
 .container-main {
+  flex-direction: column;
   padding: 0 4.8rem;
-  margin: 15rem auto;
+  margin: auto;
   width: 120rem;
 }
 
 .hero {
-  display: grid;
-  max-width: 100rem;
-  grid-template-columns: 1fr 1.5fr 0.8fr 1fr;
   gap: 1.2rem;
   margin: 0 11rem;
+  min-height: 100vh;
 }
 
 .hero-text-box {
@@ -110,6 +109,7 @@
 .slider-t {
   margin-bottom: 4rem;
   line-height: 1.2;
+  text-shadow: #ffdd19 1px 0 10px;
 }
 .slides {
   height: 28.7rem;
@@ -239,6 +239,8 @@
   font-style: normal;
   font-size: 1.6rem;
   line-height: 1.6;
+  white-space: nowrap;
+  margin-right: 3.8rem;
 }
 
 .footer-link:link,
