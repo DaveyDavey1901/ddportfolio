@@ -44,17 +44,16 @@
 /* 03 HERO SECTION 03  */
 /***********************/
 .container-main {
-  flex-direction: column;
   padding: 0 4.8rem;
   margin: 0 6rem;
-  max-width: 140rem;
-  min-width: 100rem;
 }
 
 .hero {
+  flex-direction: column;
   gap: 1.2rem;
   margin: 0 11rem;
   min-height: 100vh;
+  max-width: 130rem;
 }
 
 .hero-text-box {
@@ -63,6 +62,7 @@
   margin-right: 2.4rem;
   white-space: nowrap;
   text-align: left;
+  flex: 50%;
 }
 .heading-primary {
   margin: 0rem 4.8rem 1rem;
@@ -87,6 +87,7 @@
   height: 29rem;
   width: 36rem;
   z-index: -1;
+  flex: 50%;
 }
 
 .hero-img-text {
@@ -107,8 +108,13 @@
   float: left;
   z-index: -1;
 }
+
+.slider-container {
+  flex-direction: row;
+  flex: 50%;
+}
 .slider-t {
-  margin-bottom: 4rem;
+  margin: 0 1rem 4rem 0;
   line-height: 1.2;
   text-shadow: #ffdd19 1px 0 10px;
 }
@@ -154,6 +160,7 @@
 
   margin: 0 20.6rem 0 1.6rem;
   padding: 7.6rem 13rem;
+  min-width: 80rem;
 }
 .feat-one {
   grid-column: 1 / 3;
