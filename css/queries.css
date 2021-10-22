@@ -4,3 +4,8 @@
   }
 }
 */
+@media (max-width: 830px) {
+  .footer {
+    display: none;
+  }
+}
