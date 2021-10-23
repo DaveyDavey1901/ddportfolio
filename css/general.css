@@ -39,7 +39,7 @@ Border #ffdd19
 
 03 BORDER-RADIUS
 
-Default: 9px
+Default: 9px 12px;
 
 04 WHITESPACE
 
@@ -70,7 +70,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 500;
   color: #fdf2f2;
   overflow-x: hidden;

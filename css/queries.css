@@ -4,8 +4,13 @@
   }
 }
 */
-@media (max-width: 830px) {
+@media screen and (max-width: 830px) {
   .footer {
     display: none;
+  }
+}
+@media screen and (min-width: 766px) {
+  .proj-card-flip {
+    flex: 0 0 15%;
   }
 }

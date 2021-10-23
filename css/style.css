@@ -296,12 +296,6 @@
   height: 6rem;
   margin: 0 auto;
 }
-.main-projects-container {
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2rem;
-  height: 60vh;
-}
 
 .title-container {
   max-width: 88%;
@@ -311,7 +305,6 @@
   border-radius: 12px;
   box-shadow: 0 -0.1rem 0.7rem rgba(255, 220, 25, 0.3);
 }
-
 .title-container h1 {
   text-align: center;
   font-size: 3.6rem;
@@ -324,10 +317,16 @@
   margin-bottom: 2rem;
 }
 
+.main-projects-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .proj-card-flip {
   background-color: transparent;
   width: 19rem;
   height: 29rem;
+  margin: 2rem;
 }
 
 .flip-card-inner {
@@ -349,6 +348,7 @@
 
 .flip-card-front,
 .flip-card-back {
+  overflow-y: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
