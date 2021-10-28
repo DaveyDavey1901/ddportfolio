@@ -161,19 +161,21 @@
 
 .featured-container {
   display: grid;
-  grid-template-columns: 50rem 25rem;
+  grid-template-columns: auto auto;
   column-gap: 2.2rem;
   row-gap: 2rem;
+
   justify-content: center;
   align-items: center;
-  margin: 0 18rem 10rem 6rem;
+  max-height: 100vh;
+  margin: 8rem 6rem;
   padding: 0 2rem;
 }
 .heading-three-column {
   grid-column: 1 / 3;
   background-color: rgba(7, 27, 69, 0.8);
-  max-width: 81rem;
-  min-width: 50rem;
+  width: auto;
+  max-width: 75.5%;
   text-align: center;
   justify-content: center;
   min-height: 10rem;
@@ -186,20 +188,20 @@
   grid-column: 1 / 2;
   grid-row: 2 / 6;
   max-width: 100%;
-  height: 58rem;
+  height: 54rem;
   margin-bottom: 2rem;
 }
 .feat-two {
   grid-column: 2 / 3;
   grid-row: 2 / 4;
-  max-width: 100%;
-  height: 28rem;
+  max-width: 50%;
+  height: 26rem;
 }
 .feat-three {
   grid-column: 2 / 3;
   grid-row: 4 / 4;
-  max-width: 100%;
-  height: 28rem;
+  max-width: 50%;
+  height: 26rem;
 }
 
 .featured-project {
@@ -244,7 +246,7 @@
   justify-content: space-between;
   background-color: rgba(7, 27, 69, 0.9);
   border-top: 1px solid #ffdd19;
-  height: 7.8rem;
+  height: 5.8rem;
   padding: 0 4.8rem;
   align-items: center;
 
@@ -291,24 +293,18 @@
 /**************************/
 /*      Project Page      */
 /**************************/
-.blocker-box {
-  display: block;
-  height: 6rem;
-  margin: 0 auto;
-}
 
 .title-container {
   max-width: 88%;
   padding: 0 3.2rem;
-  margin: 2rem auto;
+  margin: 7rem auto 2rem auto;
   background-color: rgba(7, 27, 69, 0.8);
   border-radius: 12px;
-  box-shadow: 0 -0.1rem 0.7rem rgba(255, 220, 25, 0.3);
 }
 .title-container h1 {
   text-align: center;
   font-size: 3.6rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .title-container p {
   font-size: 1.4rem;
@@ -316,17 +312,21 @@
   padding: 1rem;
   margin-bottom: 2rem;
 }
-
+.title-container a {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0.2rem;
+}
 .main-projects-container {
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .proj-card-flip {
   background-color: transparent;
-  width: 19rem;
-  height: 29rem;
-  margin: 2rem;
+  width: 18rem;
+  height: 25rem;
 }
 
 .flip-card-inner {
@@ -339,7 +339,6 @@
   /*without preserve-3d you will only see front of card turn upside down*/
   transform-style: preserve-3d;
   border-radius: 12px;
-  box-shadow: 0.5rem 0.5rem 0.2rem rgba(255, 220, 25, 0.3);
 }
 
 .proj-card-flip:hover .flip-card-inner {
