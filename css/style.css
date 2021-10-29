@@ -49,12 +49,13 @@
   align-items: center;
   max-width: 168rem;
   min-width: 100rem;
+  margin: 0 6rem;
 }
 .hero {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 1.2rem;
 
   min-height: 100vh;
@@ -68,6 +69,7 @@
   margin: 0 2.4rem;
   padding: 0.5rem;
   white-space: nowrap;
+  justify-content: center;
 }
 .heading-primary {
   margin: 0rem 6rem;
@@ -91,7 +93,6 @@
   position: relative;
   height: 29rem;
   width: 36rem;
-  z-index: -1;
   flex: 50%;
 }
 
@@ -104,14 +105,11 @@
   color: rgba(255, 220, 25, 0.5);
   position: absolute;
   transform: translate(05%, 12%);
-  z-index: -1;
 }
 
 .hero-img {
   width: 36rem;
   margin: 0rem 2rem 1rem 0rem;
-  float: left;
-  z-index: -1;
 }
 
 .slider-t {
@@ -120,14 +118,10 @@
   line-height: 1.2;
   border-radius: 12px;
 }
-.slides-avatar-img {
-  background-image: url(../img/profile-img-one.png);
-  background-position: top right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 25rem;
-  height: 30rem;
-  border: 1px solid transparent;
+
+.slides {
+  margin-bottom: 4rem;
+  max-width: 100%;
 }
 .slider-title {
   width: 5rem;
@@ -138,6 +132,7 @@
   font-weight: 600;
   color: #071b45;
   text-align: center;
+
   overflow-y: hidden;
   overflow-x: hidden;
 
@@ -155,6 +150,18 @@
   color: #fdf2f2;
 }
 
+.decorative {
+  height: 25rem;
+  width: 17rem;
+  border-radius: 12px;
+  margin: 0 2rem 3.8rem 2rem;
+  padding: 1rem;
+}
+.avatar {
+  width: 15rem;
+  height: 15rem;
+  padding: 2rem;
+}
 /**************************/
 /* Featured Project SECTION */
 /**************************/
@@ -169,10 +176,10 @@
   align-items: center;
   max-height: 100vh;
   max-width: 80vw;
-  margin: 8rem 4rem;
+  margin: 6% 10%;
   padding: 1rem;
 }
-.heading-three-column {
+.heading-feature {
   grid-column: 1 / 5;
   background-color: rgba(7, 27, 69, 0.8);
   text-align: center;
