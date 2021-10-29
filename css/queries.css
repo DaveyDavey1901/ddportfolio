@@ -19,4 +19,7 @@
 /* SCREEN SIZE BELOW 520px (Mobile Phones) */
 
 @media (max-width: 34rem) {
+  html {
+    font-size: 65%;
+  }
 }
