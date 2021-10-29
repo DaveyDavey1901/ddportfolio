@@ -295,8 +295,8 @@
 /**************************/
 
 .title-container {
-  max-width: 60%;
-  padding: 0 3.2rem;
+  max-width: 70%;
+  padding: 0.5rem;
   margin: 7rem auto 1rem auto;
   background-color: rgba(7, 27, 69, 0.8);
   border-radius: 12px;
