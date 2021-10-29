@@ -1,11 +1,22 @@
-@media screen and (min-width: 766px) {
-  .proj-card-flip {
-    flex: 0 0 20%;
-  }
+/* SCREEN SIZE BELOW 1300px (Smaller Desktop Computers) */
+
+@media (max-width: 84rem) {
 }
 
-@media screen and (max-width: 830px) {
+/* SCREEN SIZE BELOW 1200px (Landscape View Tablets) */
+
+@media (max-width: 75rem) {
+}
+
+/* SCREEN SIZE BELOW 920px (Portrait View Tablets) */
+
+@media (max-width: 59rem) {
   .footer {
     display: none;
   }
+}
+
+/* SCREEN SIZE BELOW 520px (Mobile Phones) */
+
+@media (max-width: 34rem) {
 }
