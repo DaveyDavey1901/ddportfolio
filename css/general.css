@@ -78,8 +78,9 @@ body {
 
   height: 100vh;
   width: 100vw;
-  margin: 0 auto;
+  margin: 1%;
 }
+
 /* Not Used 
 .clearfix::after {
   content: "";
