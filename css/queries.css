@@ -10,7 +10,7 @@
 
 /* (Portrait View Tablets) */
 
-@media (max-width: 50rem) {
+@media (min-width: 45rem) {
   .footer {
     display: none;
   }
