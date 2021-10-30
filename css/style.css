@@ -48,14 +48,11 @@
 .hero {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  gap: 1.2rem;
   min-width: 100vw;
   min-height: 100vh;
-
   padding: 2rem;
-  margin: 0 auto;
 }
 
 .hero-text-box {
@@ -66,6 +63,7 @@
   white-space: nowrap;
   justify-content: center;
 }
+
 .heading-primary {
   font-size: 8rem;
   line-height: 1.05;
@@ -76,10 +74,13 @@
   line-height: 1.8;
 }
 
+.feat-btn a {
+  padding-left: 2rem;
+}
 /* main image of the page with txt box */
 .hero-img-box {
   position: relative;
-  height: 29rem;
+  height: 28rem;
   width: 36rem;
   margin: 0 1rem;
 }
@@ -99,7 +100,10 @@
   width: 36rem;
   margin: 0rem 2rem 1rem 0rem;
 }
-
+.slider-container {
+  justify-content: left;
+  width: 10rem;
+}
 .slider-t {
   margin: 0 1rem 4rem 0;
   padding: 2rem 1rem;
@@ -121,9 +125,7 @@
   color: #071b45;
   text-align: center;
 
-  overflow-y: hidden;
-  overflow-x: hidden;
-
+  overflow: hidden;
   white-space: nowrap;
   margin: 0rem 0rem 1.2rem 0rem;
 
@@ -145,7 +147,7 @@
   height: 24.5rem;
   width: 17rem;
   border-radius: 12px;
-  margin: 0 2rem 3.8rem 2rem;
+  margin: 0 1rem 3.8rem 1rem;
   padding: 1rem;
 }
 .avatar {

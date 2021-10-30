@@ -6,7 +6,6 @@
 /* (Landscape View Tablets) */
 
 @media (max-width: 75rem) {
-  /*Feature Projects */
 }
 
 /* (Portrait View Tablets) */
@@ -15,6 +14,14 @@
   .footer {
     display: none;
   }
+  /*hero section*/
+  .hero {
+    grid-template-columns: auto auto;
+  }
+  .avatar-card {
+    width: 32rem;
+  }
+
   /*Main Projects*/
   .title-container {
     max-width: 80%;
