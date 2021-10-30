@@ -68,6 +68,18 @@
 /* (Mobile Phones) */
 
 @media (max-width: 34rem) {
+  /*hero section*/
+  html {
+    margin: 10rem auto;
+  }
+  .hero {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .avatar-card {
+    margin-top: 5rem;
+  }
   .title-container {
     max-width: 80%;
   }
