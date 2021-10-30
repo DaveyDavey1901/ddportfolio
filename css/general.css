@@ -75,9 +75,6 @@ body {
   color: #fdf2f2;
   overflow-x: hidden;
   scroll-behavior: smooth;
-
-  height: auto;
-  width: auto;
 }
 main {
   margin-bottom: 10rem;

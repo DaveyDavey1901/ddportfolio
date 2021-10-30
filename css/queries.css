@@ -1,16 +1,16 @@
 /* (Smaller Desktop Computers) */
 
-@media (max-width: 84rem) {
+@media (max-width: 84em) {
 }
 
 /* (Landscape View Tablets) */
 
-@media (max-width: 75rem) {
+@media (max-width: 75em) {
 }
 
 /* (Portrait View Tablets) */
 
-@media (max-width: 45rem) {
+@media (max-width: 1024px) {
   .footer {
     display: none;
   }
@@ -67,7 +67,7 @@
 }
 /* (Mobile Phones) */
 
-@media (max-width: 34rem) {
+@media (max-width: 34em) {
   /*hero section*/
   html {
     margin: 10rem auto;
