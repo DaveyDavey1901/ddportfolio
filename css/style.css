@@ -44,48 +44,36 @@
 /***********************/
 /* 03 HERO SECTION 03  */
 /***********************/
-.container-main {
-  justify-content: center;
-  align-items: center;
-  max-width: 168rem;
-  min-width: 100rem;
-  margin: 0 6rem;
-}
+
 .hero {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  align-items: center;
   justify-content: left;
+  align-items: center;
   gap: 1.2rem;
-
+  min-width: 100vw;
   min-height: 100vh;
+
   padding: 2rem;
-  margin: 0 2rem;
+  margin: 0 auto;
 }
 
 .hero-text-box {
   height: 31rem;
-  width: 36rem;
-  margin: 0 2.4rem;
+  width: 32rem;
+  margin: 0 1rem;
   padding: 0.5rem;
   white-space: nowrap;
   justify-content: center;
 }
 .heading-primary {
-  margin: 0rem 6rem;
   font-size: 8rem;
   line-height: 1.05;
   text-transform: uppercase;
 }
 .hero-job-title {
-  font-size: 2.6rem;
-  line-height: 1.6;
-  margin: 0rem 6rem;
-}
-
-/* html links designed to look like and respond like a button*/
-.button-box {
-  margin: 0rem 6rem;
+  font-size: 2.4rem;
+  line-height: 1.8;
 }
 
 /* main image of the page with txt box */
@@ -93,7 +81,7 @@
   position: relative;
   height: 29rem;
   width: 36rem;
-  flex: 50%;
+  margin: 0 1rem;
 }
 
 .hero-img-text {
@@ -113,7 +101,7 @@
 }
 
 .slider-t {
-  margin: 0 1rem 5rem 0;
+  margin: 0 1rem 4rem 0;
   padding: 2rem 1rem;
   line-height: 1.2;
   border-radius: 12px;
@@ -144,14 +132,17 @@
   transition: width 2s;
   transition-timing-function: ease-in-out;
 }
+.slider-title:nth-child(5) {
+  margin-bottom: 0;
+}
 
 .slider-title:hover {
   width: 25rem;
   color: #fdf2f2;
 }
 
-.decorative {
-  height: 25rem;
+.avatar-card {
+  height: 24.5rem;
   width: 17rem;
   border-radius: 12px;
   margin: 0 2rem 3.8rem 2rem;
