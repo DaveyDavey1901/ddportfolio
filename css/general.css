@@ -79,7 +79,9 @@ body {
   height: auto;
   width: auto;
 }
-
+main {
+  margin-bottom: 10rem;
+}
 /* Not Used 
 .clearfix::after {
   content: "";
