@@ -368,13 +368,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 /*Avatar card */
 .aboutMe-card {
   text-align: center;
-  width: 17rem;
-  height: 20rem;
   padding: 1rem;
   margin: 2rem 1.5rem;
 }

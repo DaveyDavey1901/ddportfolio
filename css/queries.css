@@ -135,4 +135,15 @@
     grid-column: 1 / 2;
     grid-row: 8 / 9;
   }
+
+  .aboutMe-hero {
+    flex-direction: column;
+    margin: 0 4rem;
+  }
+  .aboutMe-profile-box {
+    margin-bottom: 2rem;
+  }
+  .myDetails-container {
+    margin: 0 1rem 10rem 0;
+  }
 }
