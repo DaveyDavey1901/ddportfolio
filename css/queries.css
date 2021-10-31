@@ -3,23 +3,9 @@
 @media (max-width: 84em) {
 }
 
-/* (below 1200 Landscape View Tablets) */
+/* (Tablets) */
 
-@media (max-width: 75em) {
-}
-
-@media only screen and (max-width: 77em) {
-  .myname-nav,
-  .header-nav-link,
-  .address,
-  .footer-link {
-    font-size: 1.4rem;
-  }
-  .social-icon {
-    height: 2rem;
-    width: 2rem;
-    color: #ffdd19;
-  }
+@media (max-width: 77em) {
   /*hero section*/
   .main-container-hero {
     width: auto;
@@ -83,12 +69,10 @@
 /* (Mobile Phones ) */
 
 @media (max-width: 34em) {
-  /*hero section*/
-
   html {
     margin: 10rem auto;
   }
-
+  /*hero section*/
   .myname-nav,
   .header-nav-link,
   .address,
