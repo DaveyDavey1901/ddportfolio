@@ -250,14 +250,14 @@
 /*      Project Page      */
 /**************************/
 .main-projects-container {
-  max-height: 140rem;
+  max-height: 400rem;
   max-width: 100%;
   margin: 6rem 2rem 10rem 2rem;
 }
 .title-container {
   max-width: 74rem;
   padding: 0.5rem;
-  margin: 7rem auto 1rem auto;
+  margin: 4rem auto 1rem auto;
   background-color: rgba(7, 27, 69, 0.9);
   border-radius: 12px;
   text-align: center;

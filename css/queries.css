@@ -97,12 +97,23 @@
   .footer-link {
     font-size: 1.6rem;
   }
-
+  .footer {
+    padding: 2rem;
+  }
+  .contacts {
+    font-size: 1rem;
+  }
+  .social-links {
+    gap: 1rem;
+  }
+  .social-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
   .main-container-hero {
     width: auto;
     height: 300rem;
     margin-bottom: 10rem;
-    background-color: antiquewhite;
   }
   .slider-title:hover {
     width: 30rem;
