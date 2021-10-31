@@ -65,7 +65,18 @@
     grid-column: 3 / 4;
     grid-row: 3 / 4;
   }
+
+  .aboutMe-hero {
+    flex-direction: column;
+  }
+  .aboutMe-profile-box {
+    margin-bottom: 2rem;
+  }
+  .myDetails-container {
+    margin: 0 2rem 10rem 0;
+  }
 }
+
 /* (Mobile Phones ) */
 
 @media (max-width: 34em) {
