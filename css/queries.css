@@ -66,12 +66,7 @@
 
 @media (max-width: 34em) {
   /*hero section*/
-  .footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-  }
+
   html {
     margin: 10rem auto;
   }
