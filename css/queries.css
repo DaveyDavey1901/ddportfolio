@@ -8,9 +8,7 @@
 @media (max-width: 75em) {
 }
 
-/* (below 944px Portrait View Tablets) */
-
-@media (max-width: 59em) {
+@media only screen and (device-width: 768px) {
   .myname-nav,
   .header-nav-link,
   .address,
