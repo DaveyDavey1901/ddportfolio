@@ -29,7 +29,7 @@ Blue #0a2662 Yellow #FFDC1A,red #a00000
 
 01 Colors and shades used 
 Text #FDF2F2
-Background  #071b45
+Background  #071b45, rgba(7, 27, 69, 0.9);
 Border #ffdd19
 
 02 SHADOWS
@@ -125,13 +125,10 @@ main {
   text-align: center;
 }
 
-/*Positioning Items / Contents
-position is fixed so the header stays in place when you scroll down*/
-
 /**************************/
 /*  REUSABLE COMPONENTS  */
 /**************************/
-/*BUTTONS*/
+/*Reusable buttons*/
 .all-btns {
   display: inline-block;
   border: none;
@@ -160,31 +157,37 @@ position is fixed so the header stays in place when you scroll down*/
   box-shadow: inset 0 0 0 0.2rem #ffdd19;
 }
 
-.fixed-part {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-}
+/*resusable fixed parts*/
+.fixed-part,
 .fixed-part-bottom {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
   width: 100%;
+  left: 0px;
 }
 
+.fixed-part {
+  top: 0px;
+}
+.fixed-part-bottom {
+  bottom: 0px;
+}
+
+/*reusable borders*/
+.bdr-style-one,
+.bdr-style-two {
+  border: 1px solid #ffdd19;
+  border-radius: 12px;
+}
+.bdr-style-one {
+  background-color: #071b45;
+}
+.bdr-style-two {
+  background-color: rgba(7, 27, 69, 0.9);
+}
+
+/*other reusable styles*/
 .flex-align-c {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.Bdr-style-one {
-  background-color: #071b45;
-  border: 1px solid #ffdd19;
-  border-radius: 12px;
-}
-.Bdr-style-two {
-  background-color: rgba(7, 27, 69, 0.9);
-  border: 1px solid #ffdd19;
-  padding: 1.2rem;
 }
