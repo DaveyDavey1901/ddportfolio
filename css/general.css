@@ -157,6 +157,23 @@ main {
   box-shadow: inset 0 0 0 0.2rem #ffdd19;
 }
 
+.link-btn-proj:link,
+.link-btn-proj:visited {
+  background-color: #ffdd19;
+  color: #071b45;
+  border: 0.1rem solid #071b45;
+}
+
+.link-btn-proj:hover,
+.link-btn-proj:active {
+  background-color: #fdf2f2;
+  box-shadow: inset 0 0 0 0.2rem #ffdd19;
+}
+
+.link-btn-proj {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
 /*resusable fixed parts*/
 .fixed-part,
 .fixed-part-bottom {
