@@ -66,6 +66,10 @@
     grid-row: 3 / 4;
   }
 
+  #info-one {
+    width: 26rem;
+    height: 30rem;
+  }
   .aboutMe-hero {
     flex-direction: column;
   }
@@ -145,5 +149,9 @@
   }
   .myDetails-container {
     margin: 0 1rem 10rem 0;
+  }
+  #info-one {
+    width: 26rem;
+    height: 30rem;
   }
 }
