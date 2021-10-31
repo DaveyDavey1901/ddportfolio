@@ -43,6 +43,7 @@
   /*Feature Projects */
   .featured-container {
     grid-template-columns: auto auto auto;
+    margin-bottom: 10rem;
   }
   .heading-feature {
     grid-column: 1 / 4;
