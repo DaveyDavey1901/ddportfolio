@@ -24,7 +24,7 @@
   .main-container-hero {
     width: auto;
     height: 212rem;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
   }
   .hero {
     grid-template-columns: auto;
