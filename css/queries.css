@@ -11,11 +11,6 @@
 /* (below 944px Portrait View Tablets) */
 
 @media (max-width: 59em) {
-}
-
-/* small tablets) */
-
-@media (max-width: 45em) {
   .myname-nav,
   .header-nav-link,
   .address,
@@ -30,7 +25,8 @@
   /*hero section*/
   .main-container-hero {
     width: auto;
-    height: 208rem;
+    height: 212rem;
+    margin-bottom: 4rem;
   }
   .hero {
     grid-template-columns: auto;
