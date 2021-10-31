@@ -27,5 +27,11 @@ This is my personnel porfolio.  The aim of this project is to create a portfolio
 
 
 **Future Versions**
+Some of the things i will be adding / changing / improving on in future versions are
+1. start to fill all details in on all the pages where required including attaching an updated cv.
+2. building some small projects to add to the projects cards as well as build some components for my CodePen Account.
+3. adjust the cosmetics of the site overall as well as refactor and look to organise the code better.
+4. add in some javascript components menus, page transitions.
 
+as time goes on and as i gain in knowledge the portfolio will adapt and grow over the coming weeks and months.
 
