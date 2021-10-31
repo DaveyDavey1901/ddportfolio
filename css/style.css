@@ -301,7 +301,12 @@
 /**************************/
 /*      Project Page      */
 /**************************/
-
+.main-projects-container {
+  max-height: 140rem;
+  max-width: 100%;
+  margin: 5rem 2rem 10rem 2rem;
+  background-color: #a00000;
+}
 .title-container {
   max-width: 74rem;
   padding: 0.5rem;
