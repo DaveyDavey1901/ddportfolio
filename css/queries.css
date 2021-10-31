@@ -8,7 +8,7 @@
 @media (max-width: 75em) {
 }
 
-@media only screen and (device-width: 768px) {
+@media screen and (max-width: 768px) {
   .myname-nav,
   .header-nav-link,
   .address,
@@ -23,8 +23,8 @@
   /*hero section*/
   .main-container-hero {
     width: auto;
-    height: 212rem;
-    margin-bottom: 10rem;
+    height: 230rem;
+    margin-bottom: 15rem;
   }
   .hero {
     grid-template-columns: auto;
@@ -43,7 +43,8 @@
   /*Feature Projects */
   .featured-container {
     grid-template-columns: auto auto auto;
-    margin-bottom: 10rem;
+    margin: 10rem 4rem;
+    gap: 1rem;
   }
   .heading-feature {
     grid-column: 1 / 4;
