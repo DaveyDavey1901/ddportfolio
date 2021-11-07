@@ -25,6 +25,10 @@ This is my personnel porfolio.  The aim of this project is to create a portfolio
 |-------------|-------------|
 |<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_ProjectsPage.png" width="250">|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_AboutMe.png" width="250">|
 
+**Lighthouse Test on This Version**
+|Lighthouse Image|
+|----------------|
+|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_Lighthouse.png" width="250">|
 
 **Future Versions**
 Some of the things i will be adding / changing / improving on in future versions are
@@ -34,4 +38,5 @@ Some of the things i will be adding / changing / improving on in future versions
 4. add in some javascript components menus, page transitions.
 
 as time goes on and as i gain in knowledge the portfolio will adapt and grow over the coming weeks and months.
+
 
