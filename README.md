@@ -6,6 +6,7 @@ Name of Project
 [Click to view my Portfolio](https://daveydavey1901.github.io/ddportfolio/)
 
 **Description**
+
 This is my personnel porfolio.  The aim of this project is to create a portfolio that shows of by myself and my abilites as well as my completed and ongoing projects. In this version i have set out to do what i could with my current knowledge and give myself a foundation to improve from.
 
 1. I have mainly just tried to create a layout with the required areas/pages with placeholder text and imgs. 
@@ -19,20 +20,23 @@ This is my personnel porfolio.  The aim of this project is to create a portfolio
 9. each page should resize from mobile to desktop using media queries.
 
 **Visuals**
+
 |Portfolio FrontPage |Feature Project Page|
 |--------------------|--------------------|
-|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_FrontPage.png" width="250">|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_FeatureProjects.png" width="250">|
+|<img src="Assets/img/Portfolio_FrontPage.png" width="250">|<img src="Assets/img/Portfolio_FeatureProjects.png" width="250">|
 
 |Project Page |About Me Page|
 |-------------|-------------|
-|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_ProjectsPage.png" width="250">|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_AboutMe.png" width="250">|
+|<img src="Assets/img/Portfolio_ProjectsPage.png" width="250">|<img src="Assets/img/Portfolio_AboutMe.png" width="250">|
 
 **Lighthouse Test on This Version**
+
 |Lighthouse Image|
 |----------------|
-|<img src="https://github.com/DaveyDavey1901/ddportfolio/blob/main/img/Portfolio_Lighthouse.png" width="250">|
+|<img src="Assets/img/Portfolio_Lighthouse.png" width="250">|
 
 **Future Versions**
+
 Some of the things i will be adding / changing / improving on in future versions are
 1. start to fill all details in on all the pages where required including attaching an updated cv.
 2. building some small projects to add to the projects cards as well as build some components for my CodePen Account.
