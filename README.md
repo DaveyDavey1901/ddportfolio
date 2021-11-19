@@ -3,6 +3,8 @@
 Name of Project
 **DDportfolio**
 
+[Click to view my Portfolio](https://daveydavey1901.github.io/ddportfolio/)
+
 **Description**
 This is my personnel porfolio.  The aim of this project is to create a portfolio that shows of by myself and my abilites as well as my completed and ongoing projects. In this version i have set out to do what i could with my current knowledge and give myself a foundation to improve from.
 
