@@ -76,9 +76,12 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 main {
   margin-bottom: 5rem;
 }
+
+
 /* Not Used 
 .clearfix::after {
   content: "";
