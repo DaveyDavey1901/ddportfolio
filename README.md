@@ -45,4 +45,6 @@ Some of the things i will be adding / changing / improving on in future versions
 
 as time goes on and as i gain in knowledge the portfolio will adapt and grow over the coming weeks and months.
 
+## License
 
+[MIT License](LICENSE)
