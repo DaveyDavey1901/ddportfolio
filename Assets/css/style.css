@@ -394,7 +394,7 @@
   font-size: 1.4rem;
 }
 #info-one {
-  width: 40rem;
+  width: auto;
   height: auto;
 }
 #info-two {
