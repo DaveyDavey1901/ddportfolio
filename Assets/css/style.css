@@ -395,23 +395,23 @@
 }
 #info-one {
   width: 40rem;
-  height: 20rem;
+  height: auto;
 }
 #info-two {
   width: 26rem;
-  height: 20rem;
+  height: auto;
 }
 #info-three {
   width: 20rem;
-  height: 20rem;
+  height: auto;
 }
 #info-four {
   width: 20rem;
-  height: 20rem;
+  height: auto;
 }
 #info-five {
   width: 23rem;
-  height: 20rem;
+  height: auto;
 }
 
 /* FOOTER SECTION*/

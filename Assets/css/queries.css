@@ -80,7 +80,7 @@
   /*About me section queries*/
   #info-one {
     width: 26rem;
-    height: 30rem;
+    height: auto;
   }
   .aboutMe-hero {
     flex-direction: column;
@@ -191,6 +191,6 @@
   }
   #info-one {
     width: 26rem;
-    height: 30rem;
+    height: auto;
   }
 }
