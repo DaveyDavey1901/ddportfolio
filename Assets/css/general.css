@@ -81,7 +81,11 @@ main {
   margin-bottom: 5rem;
 }
 
-
+ul{
+  font-size:1.4rem;
+  list-style: none;
+  text-align: left;
+}
 
 /* Not Used 
 .clearfix::after {
